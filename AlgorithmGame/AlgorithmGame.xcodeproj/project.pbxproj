@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25032F0D228D09E200CC71D2 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25032F0C228D09E200CC71D2 /* MainNavigationController.swift */; };
+		25032F0F228D0A3100CC71D2 /* BasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25032F0E228D0A3100CC71D2 /* BasicContentView.swift */; };
+		25032F13228D0D8300CC71D2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25032F11228D0D8300CC71D2 /* HomeViewController.swift */; };
+		25032F14228D0D8300CC71D2 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25032F12228D0D8300CC71D2 /* HomeViewController.xib */; };
 		25E527E9228CFF4F00EDA13E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E527E8228CFF4F00EDA13E /* AppDelegate.swift */; };
 		25E527EB228CFF4F00EDA13E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E527EA228CFF4F00EDA13E /* ViewController.swift */; };
 		25E527EE228CFF4F00EDA13E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25E527EC228CFF4F00EDA13E /* Main.storyboard */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		25032F0C228D09E200CC71D2 /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
+		25032F0E228D0A3100CC71D2 /* BasicContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicContentView.swift; sourceTree = "<group>"; };
+		25032F11228D0D8300CC71D2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		25032F12228D0D8300CC71D2 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		25E527E5228CFF4F00EDA13E /* AlgorithmGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlgorithmGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25E527E8228CFF4F00EDA13E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		25E527EA228CFF4F00EDA13E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,6 +56,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		25032F0B228D09C200CC71D2 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				25032F0C228D09E200CC71D2 /* MainNavigationController.swift */,
+				25032F0E228D0A3100CC71D2 /* BasicContentView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		25032F10228D0D6900CC71D2 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				25032F11228D0D8300CC71D2 /* HomeViewController.swift */,
+				25032F12228D0D8300CC71D2 /* HomeViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		25E527DC228CFF4F00EDA13E = {
 			isa = PBXGroup;
 			children = (
@@ -69,7 +95,9 @@
 		25E527E7228CFF4F00EDA13E /* AlgorithmGame */ = {
 			isa = PBXGroup;
 			children = (
+				25032F10228D0D6900CC71D2 /* Home */,
 				25E527E8228CFF4F00EDA13E /* AppDelegate.swift */,
+				25032F0B228D09C200CC71D2 /* TabBar */,
 				25E527EA228CFF4F00EDA13E /* ViewController.swift */,
 				25E527EC228CFF4F00EDA13E /* Main.storyboard */,
 				25E527EF228CFF5000EDA13E /* Assets.xcassets */,
@@ -99,6 +127,7 @@
 				25E527E1228CFF4F00EDA13E /* Sources */,
 				25E527E2228CFF4F00EDA13E /* Frameworks */,
 				25E527E3228CFF4F00EDA13E /* Resources */,
+				5DA84F4666F871765B1448EC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -150,6 +179,7 @@
 				25E527F3228CFF5000EDA13E /* LaunchScreen.storyboard in Resources */,
 				25E527F0228CFF5000EDA13E /* Assets.xcassets in Resources */,
 				25E527EE228CFF4F00EDA13E /* Main.storyboard in Resources */,
+				25032F14228D0D8300CC71D2 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,6 +204,38 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		5DA84F4666F871765B1448EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AlgorithmGame/Pods-AlgorithmGame-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CollectionKit/CollectionKit.framework",
+				"${BUILT_PRODUCTS_DIR}/ESTabBarController-swift/ESTabBarController_swift.framework",
+				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/ProgressHUD/ProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CollectionKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ESTabBarController_swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlgorithmGame/Pods-AlgorithmGame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -181,6 +243,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25032F13228D0D8300CC71D2 /* HomeViewController.swift in Sources */,
+				25032F0D228D09E200CC71D2 /* MainNavigationController.swift in Sources */,
+				25032F0F228D0A3100CC71D2 /* BasicContentView.swift in Sources */,
 				25E527EB228CFF4F00EDA13E /* ViewController.swift in Sources */,
 				25E527E9228CFF4F00EDA13E /* AppDelegate.swift in Sources */,
 			);

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import ESTabBarController_swift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let tabBarController = ESTabBarController()
+        let v1 = HomeViewController()
+        let v2 = HomeViewController()
+        let v3 = HomeViewController()
+        let v4 = HomeViewController()
+        let v5 = HomeViewController()
+        v1.tabBarItem = ESTabBarItem.init(BouncesContentView(), title: "Home", image: UIImage(named: "home"), selectedImage: UIImage(named: "home_1"))
+        v2.tabBarItem = ESTabBarItem.init(BouncesContentView(), title: "Find", image: UIImage(named: "find"), selectedImage: UIImage(named: "find_1"))
+        v3.tabBarItem = ESTabBarItem.init(BouncesContentView(), title: "Photo", image: UIImage(named: "photo"), selectedImage: UIImage(named: "photo_1"))
+        v4.tabBarItem = ESTabBarItem.init(BouncesContentView(), title: "Favor", image: UIImage(named: "favor"), selectedImage: UIImage(named: "favor_1"))
+        v5.tabBarItem = ESTabBarItem.init(BouncesContentView(), title: "Me", image: UIImage(named: "me"), selectedImage: UIImage(named: "me_1"))
+        
+        tabBarController.viewControllers = [v1, v2, v3]
+        
+        let navigationController = MainNavigationController.init(rootViewController: tabBarController)
+        tabBarController.title = "Example"
+        window?.makeKeyAndVisible()
+        window?.rootViewController = navigationController
         return true
     }
 
