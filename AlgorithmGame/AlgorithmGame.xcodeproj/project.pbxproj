@@ -12,6 +12,7 @@
 		25E527EE228CFF4F00EDA13E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25E527EC228CFF4F00EDA13E /* Main.storyboard */; };
 		25E527F0228CFF5000EDA13E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25E527EF228CFF5000EDA13E /* Assets.xcassets */; };
 		25E527F3228CFF5000EDA13E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25E527F1228CFF5000EDA13E /* LaunchScreen.storyboard */; };
+		88C74DBF1A413BA9FE1D0F50 /* Pods_AlgorithmGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDACFD3651603FCBFE043490 /* Pods_AlgorithmGame.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,9 @@
 		25E527EF228CFF5000EDA13E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25E527F2228CFF5000EDA13E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		25E527F4228CFF5000EDA13E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5699E4EB016BB841AEE49027 /* Pods-AlgorithmGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgorithmGame.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlgorithmGame/Pods-AlgorithmGame.release.xcconfig"; sourceTree = "<group>"; };
+		5FAC100EB2142DB0D862EE95 /* Pods-AlgorithmGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgorithmGame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlgorithmGame/Pods-AlgorithmGame.debug.xcconfig"; sourceTree = "<group>"; };
+		EDACFD3651603FCBFE043490 /* Pods_AlgorithmGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlgorithmGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88C74DBF1A413BA9FE1D0F50 /* Pods_AlgorithmGame.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		236FEEE699B1E15D4C6EDE5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDACFD3651603FCBFE043490 /* Pods_AlgorithmGame.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		25E527DC228CFF4F00EDA13E = {
 			isa = PBXGroup;
 			children = (
 				25E527E7228CFF4F00EDA13E /* AlgorithmGame */,
 				25E527E6228CFF4F00EDA13E /* Products */,
+				E342A8C83A5B4507E97D98C0 /* Pods */,
+				236FEEE699B1E15D4C6EDE5C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +79,15 @@
 			path = AlgorithmGame;
 			sourceTree = "<group>";
 		};
+		E342A8C83A5B4507E97D98C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5FAC100EB2142DB0D862EE95 /* Pods-AlgorithmGame.debug.xcconfig */,
+				5699E4EB016BB841AEE49027 /* Pods-AlgorithmGame.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,6 +95,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 25E527F7228CFF5000EDA13E /* Build configuration list for PBXNativeTarget "AlgorithmGame" */;
 			buildPhases = (
+				40F159FA9EDCB8D3FBA931ED /* [CP] Check Pods Manifest.lock */,
 				25E527E1228CFF4F00EDA13E /* Sources */,
 				25E527E2228CFF4F00EDA13E /* Frameworks */,
 				25E527E3228CFF4F00EDA13E /* Resources */,
@@ -129,6 +154,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		40F159FA9EDCB8D3FBA931ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlgorithmGame-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		25E527E1228CFF4F00EDA13E /* Sources */ = {
@@ -280,6 +326,7 @@
 		};
 		25E527F8228CFF5000EDA13E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FAC100EB2142DB0D862EE95 /* Pods-AlgorithmGame.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +345,7 @@
 		};
 		25E527F9228CFF5000EDA13E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5699E4EB016BB841AEE49027 /* Pods-AlgorithmGame.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

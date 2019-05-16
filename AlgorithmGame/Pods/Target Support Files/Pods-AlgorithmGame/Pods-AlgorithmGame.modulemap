@@ -1,0 +1,6 @@
+framework module Pods_AlgorithmGame {
+  umbrella header "Pods-AlgorithmGame-umbrella.h"
+
+  export *
+  module * { export * }
+}
