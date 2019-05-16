@@ -16,6 +16,18 @@
 		25E527EE228CFF4F00EDA13E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25E527EC228CFF4F00EDA13E /* Main.storyboard */; };
 		25E527F0228CFF5000EDA13E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25E527EF228CFF5000EDA13E /* Assets.xcassets */; };
 		25E527F3228CFF5000EDA13E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25E527F1228CFF5000EDA13E /* LaunchScreen.storyboard */; };
+		25EA89D2228D4FBE009FA018 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EA89D0228D4FBE009FA018 /* MineViewController.swift */; };
+		25EA89D3228D4FBE009FA018 /* MineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25EA89D1228D4FBE009FA018 /* MineViewController.xib */; };
+		25EA89D6228D4FD1009FA018 /* GroundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EA89D4228D4FD1009FA018 /* GroundViewController.swift */; };
+		25EA89D7228D4FD1009FA018 /* GroundViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25EA89D5228D4FD1009FA018 /* GroundViewController.xib */; };
+		25EA89DA228D58B0009FA018 /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EA89D8228D58B0009FA018 /* HeaderCell.swift */; };
+		25EA89DB228D58B0009FA018 /* HeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25EA89D9228D58B0009FA018 /* HeaderCell.xib */; };
+		25EA89DE228D5907009FA018 /* BodyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EA89DC228D5907009FA018 /* BodyCell.swift */; };
+		25EA89DF228D5907009FA018 /* BodyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25EA89DD228D5907009FA018 /* BodyCell.xib */; };
+		25EA89E1228D5A05009FA018 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EA89E0228D5A05009FA018 /* Const.swift */; };
+		25EA89E4228D5C87009FA018 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EA89E3228D5C87009FA018 /* Extension.swift */; };
+		25EA89E7228D5EE8009FA018 /* ReturnCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EA89E5228D5EE8009FA018 /* ReturnCell.swift */; };
+		25EA89E8228D5EE8009FA018 /* ReturnCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25EA89E6228D5EE8009FA018 /* ReturnCell.xib */; };
 		88C74DBF1A413BA9FE1D0F50 /* Pods_AlgorithmGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDACFD3651603FCBFE043490 /* Pods_AlgorithmGame.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +43,18 @@
 		25E527EF228CFF5000EDA13E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25E527F2228CFF5000EDA13E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		25E527F4228CFF5000EDA13E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25EA89D0228D4FBE009FA018 /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		25EA89D1228D4FBE009FA018 /* MineViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MineViewController.xib; sourceTree = "<group>"; };
+		25EA89D4228D4FD1009FA018 /* GroundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroundViewController.swift; sourceTree = "<group>"; };
+		25EA89D5228D4FD1009FA018 /* GroundViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GroundViewController.xib; sourceTree = "<group>"; };
+		25EA89D8228D58B0009FA018 /* HeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
+		25EA89D9228D58B0009FA018 /* HeaderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderCell.xib; sourceTree = "<group>"; };
+		25EA89DC228D5907009FA018 /* BodyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyCell.swift; sourceTree = "<group>"; };
+		25EA89DD228D5907009FA018 /* BodyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BodyCell.xib; sourceTree = "<group>"; };
+		25EA89E0228D5A05009FA018 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		25EA89E3228D5C87009FA018 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		25EA89E5228D5EE8009FA018 /* ReturnCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturnCell.swift; sourceTree = "<group>"; };
+		25EA89E6228D5EE8009FA018 /* ReturnCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReturnCell.xib; sourceTree = "<group>"; };
 		5699E4EB016BB841AEE49027 /* Pods-AlgorithmGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgorithmGame.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlgorithmGame/Pods-AlgorithmGame.release.xcconfig"; sourceTree = "<group>"; };
 		5FAC100EB2142DB0D862EE95 /* Pods-AlgorithmGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgorithmGame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlgorithmGame/Pods-AlgorithmGame.debug.xcconfig"; sourceTree = "<group>"; };
 		EDACFD3651603FCBFE043490 /* Pods_AlgorithmGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlgorithmGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,16 +119,52 @@
 		25E527E7228CFF4F00EDA13E /* AlgorithmGame */ = {
 			isa = PBXGroup;
 			children = (
-				25032F10228D0D6900CC71D2 /* Home */,
 				25E527E8228CFF4F00EDA13E /* AppDelegate.swift */,
+				25EA89CF228D4F9B009FA018 /* Ground */,
+				25EA89CE228D4F8B009FA018 /* Mine */,
+				25032F10228D0D6900CC71D2 /* Home */,
 				25032F0B228D09C200CC71D2 /* TabBar */,
-				25E527EA228CFF4F00EDA13E /* ViewController.swift */,
+				25EA89E2228D5A0E009FA018 /* Const+Extension */,
 				25E527EC228CFF4F00EDA13E /* Main.storyboard */,
+				25E527EA228CFF4F00EDA13E /* ViewController.swift */,
 				25E527EF228CFF5000EDA13E /* Assets.xcassets */,
 				25E527F1228CFF5000EDA13E /* LaunchScreen.storyboard */,
 				25E527F4228CFF5000EDA13E /* Info.plist */,
 			);
 			path = AlgorithmGame;
+			sourceTree = "<group>";
+		};
+		25EA89CE228D4F8B009FA018 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				25EA89D0228D4FBE009FA018 /* MineViewController.swift */,
+				25EA89D1228D4FBE009FA018 /* MineViewController.xib */,
+				25EA89D8228D58B0009FA018 /* HeaderCell.swift */,
+				25EA89D9228D58B0009FA018 /* HeaderCell.xib */,
+				25EA89DC228D5907009FA018 /* BodyCell.swift */,
+				25EA89DD228D5907009FA018 /* BodyCell.xib */,
+				25EA89E5228D5EE8009FA018 /* ReturnCell.swift */,
+				25EA89E6228D5EE8009FA018 /* ReturnCell.xib */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		25EA89CF228D4F9B009FA018 /* Ground */ = {
+			isa = PBXGroup;
+			children = (
+				25EA89D4228D4FD1009FA018 /* GroundViewController.swift */,
+				25EA89D5228D4FD1009FA018 /* GroundViewController.xib */,
+			);
+			path = Ground;
+			sourceTree = "<group>";
+		};
+		25EA89E2228D5A0E009FA018 /* Const+Extension */ = {
+			isa = PBXGroup;
+			children = (
+				25EA89E0228D5A05009FA018 /* Const.swift */,
+				25EA89E3228D5C87009FA018 /* Extension.swift */,
+			);
+			path = "Const+Extension";
 			sourceTree = "<group>";
 		};
 		E342A8C83A5B4507E97D98C0 /* Pods */ = {
@@ -176,10 +236,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25EA89D3228D4FBE009FA018 /* MineViewController.xib in Resources */,
 				25E527F3228CFF5000EDA13E /* LaunchScreen.storyboard in Resources */,
+				25EA89DB228D58B0009FA018 /* HeaderCell.xib in Resources */,
+				25EA89DF228D5907009FA018 /* BodyCell.xib in Resources */,
 				25E527F0228CFF5000EDA13E /* Assets.xcassets in Resources */,
 				25E527EE228CFF4F00EDA13E /* Main.storyboard in Resources */,
 				25032F14228D0D8300CC71D2 /* HomeViewController.xib in Resources */,
+				25EA89E8228D5EE8009FA018 /* ReturnCell.xib in Resources */,
+				25EA89D7228D4FD1009FA018 /* GroundViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,11 +308,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25EA89DE228D5907009FA018 /* BodyCell.swift in Sources */,
 				25032F13228D0D8300CC71D2 /* HomeViewController.swift in Sources */,
 				25032F0D228D09E200CC71D2 /* MainNavigationController.swift in Sources */,
+				25EA89D6228D4FD1009FA018 /* GroundViewController.swift in Sources */,
+				25EA89E4228D5C87009FA018 /* Extension.swift in Sources */,
 				25032F0F228D0A3100CC71D2 /* BasicContentView.swift in Sources */,
+				25EA89DA228D58B0009FA018 /* HeaderCell.swift in Sources */,
 				25E527EB228CFF4F00EDA13E /* ViewController.swift in Sources */,
 				25E527E9228CFF4F00EDA13E /* AppDelegate.swift in Sources */,
+				25EA89D2228D4FBE009FA018 /* MineViewController.swift in Sources */,
+				25EA89E1228D5A05009FA018 /* Const.swift in Sources */,
+				25EA89E7228D5EE8009FA018 /* ReturnCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
