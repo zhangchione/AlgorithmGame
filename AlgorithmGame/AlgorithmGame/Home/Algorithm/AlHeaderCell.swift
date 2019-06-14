@@ -1,14 +1,14 @@
 //
-//  ReturnCell.swift
+//  AlHeaderCell.swift
 //  AlgorithmGame
 //
-//  Created by 张驰 on 2019/5/16.
+//  Created by 张驰 on 2019/5/18.
 //  Copyright © 2019 张驰. All rights reserved.
 //
 
 import UIKit
 
-class ReturnCell: UITableViewCell {
+class AlHeaderCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
