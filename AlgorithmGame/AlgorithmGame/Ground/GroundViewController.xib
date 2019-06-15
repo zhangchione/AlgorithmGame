@@ -1,22 +1,129 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13142" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12042"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GroundViewController" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GroundViewController" customModule="AlgorithmGame" customModuleProvider="target">
             <connections>
+                <outlet property="oneBtn" destination="G3W-NM-hHK" id="vTq-ze-N70"/>
+                <outlet property="oneView" destination="bdl-7u-V8p" id="gVy-sP-lfg"/>
+                <outlet property="threeBtn" destination="DCQ-1v-GCX" id="fa8-B4-5g3"/>
+                <outlet property="threeView" destination="HbN-st-2WU" id="OlY-Pj-XQV"/>
+                <outlet property="twoBtn" destination="KAR-pQ-KIP" id="nMx-pL-zgf"/>
+                <outlet property="twoView" destination="f3a-cx-YYy" id="Opy-0l-0x8"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
-            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vcr-u7-xXZ">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f3a-cx-YYy">
+                            <rect key="frame" x="20" y="320" width="374" height="180"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KAR-pQ-KIP">
+                                    <rect key="frame" x="140" y="74" width="98" height="41"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                    <state key="normal" title="出类拔萃">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" red="0.25550091559999999" green="0.98413355410000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="180" id="liF-fu-WEH"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bdl-7u-V8p">
+                            <rect key="frame" x="20" y="100" width="374" height="180"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G3W-NM-hHK">
+                                    <rect key="frame" x="140" y="74" width="98" height="41"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                    <state key="normal" title="初出茅庐">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="180" id="NLd-P2-qNn"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HbN-st-2WU">
+                            <rect key="frame" x="20" y="540" width="374" height="180"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DCQ-1v-GCX">
+                                    <rect key="frame" x="140" y="74" width="98" height="41"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                    <state key="normal" title="登峰造极">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="180" id="RQG-SU-pNO"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="竞赛专区" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Vf-3a-VOg">
+                            <rect key="frame" x="143" y="35" width="130" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="pTN-Ur-TX4"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rxB-Ya-0Vu">
+                            <rect key="frame" x="151" y="739" width="114" height="46"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                            <state key="normal" title="竞赛规则"/>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="bdl-7u-V8p" firstAttribute="top" secondItem="2Vf-3a-VOg" secondAttribute="bottom" constant="25" id="0aU-dV-fdO"/>
+                        <constraint firstItem="f3a-cx-YYy" firstAttribute="leading" secondItem="HbN-st-2WU" secondAttribute="leading" id="Aze-yu-fAg"/>
+                        <constraint firstItem="f3a-cx-YYy" firstAttribute="top" secondItem="bdl-7u-V8p" secondAttribute="bottom" constant="40" id="Evw-qo-Jdm"/>
+                        <constraint firstItem="rxB-Ya-0Vu" firstAttribute="leading" secondItem="Vcr-u7-xXZ" secondAttribute="leading" constant="151" id="HTE-zu-eyw"/>
+                        <constraint firstItem="bdl-7u-V8p" firstAttribute="trailing" secondItem="f3a-cx-YYy" secondAttribute="trailing" id="N0H-MK-eKI"/>
+                        <constraint firstAttribute="bottom" secondItem="rxB-Ya-0Vu" secondAttribute="bottom" constant="111" id="a4G-KQ-Jaq"/>
+                        <constraint firstAttribute="trailing" secondItem="bdl-7u-V8p" secondAttribute="trailing" constant="20" id="bzA-I2-YZx"/>
+                        <constraint firstItem="2Vf-3a-VOg" firstAttribute="top" secondItem="Vcr-u7-xXZ" secondAttribute="top" constant="35" id="cBn-Yh-F6A"/>
+                        <constraint firstItem="bdl-7u-V8p" firstAttribute="centerX" secondItem="Vcr-u7-xXZ" secondAttribute="centerX" id="iG4-5A-dQK"/>
+                        <constraint firstItem="bdl-7u-V8p" firstAttribute="leading" secondItem="f3a-cx-YYy" secondAttribute="leading" id="jTb-be-TmT"/>
+                        <constraint firstItem="HbN-st-2WU" firstAttribute="top" secondItem="f3a-cx-YYy" secondAttribute="bottom" constant="40" id="lu3-kf-M87"/>
+                        <constraint firstItem="rxB-Ya-0Vu" firstAttribute="top" secondItem="HbN-st-2WU" secondAttribute="bottom" constant="19" id="m5n-gx-VdL"/>
+                        <constraint firstAttribute="trailing" secondItem="rxB-Ya-0Vu" secondAttribute="trailing" constant="149" id="mrj-dX-suD"/>
+                        <constraint firstItem="2Vf-3a-VOg" firstAttribute="leading" secondItem="Vcr-u7-xXZ" secondAttribute="leading" constant="143" id="rjn-0g-oUN"/>
+                        <constraint firstItem="f3a-cx-YYy" firstAttribute="trailing" secondItem="HbN-st-2WU" secondAttribute="trailing" id="sBz-tq-3UQ"/>
+                        <constraint firstItem="bdl-7u-V8p" firstAttribute="leading" secondItem="Vcr-u7-xXZ" secondAttribute="leading" constant="20" id="vre-kQ-D2e"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Vcr-u7-xXZ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="L84-Mq-80m"/>
+                <constraint firstItem="Vcr-u7-xXZ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="hbx-Wf-FI8"/>
+                <constraint firstAttribute="trailing" secondItem="Vcr-u7-xXZ" secondAttribute="trailing" id="qSK-od-aBc"/>
+                <constraint firstAttribute="bottom" secondItem="Vcr-u7-xXZ" secondAttribute="bottom" id="qVo-uA-T1g"/>
+            </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="131.8840579710145" y="145.98214285714286"/>
         </view>
     </objects>
 </document>

@@ -10,6 +10,24 @@ import UIKit
 
 class CenterCell: UITableViewCell {
 
+    @IBOutlet weak var Div1: UIView!
+    @IBOutlet weak var Div2: UIView!
+    @IBOutlet weak var Div3: UIView!
+    @IBOutlet weak var Div4: UIView!
+    @IBOutlet weak var Div5: UIView!
+    @IBOutlet weak var Div6: UIView!
+    @IBOutlet weak var Div7: UIView!
+    
+    @IBOutlet weak var basicDiv1: UIButton!
+    @IBOutlet weak var basicDiv2: UIButton!
+    @IBOutlet weak var basicDiv3: UIButton!
+    
+    @IBOutlet weak var middelDiv1: UIButton!
+    @IBOutlet weak var middelDiv2: UIButton!
+    
+    @IBOutlet weak var topDiv1: UIButton!
+    @IBOutlet weak var topDiv2: UIButton!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

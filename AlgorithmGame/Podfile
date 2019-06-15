@@ -7,11 +7,14 @@ target 'AlgorithmGame' do
   pod 'ESTabBarController-swift'
   pod 'CollectionKit'
   pod 'Kingfisher'
-  pod 'HandyJSON'
+  pod 'HandyJSON', :git => 'https://github.com/alibaba/HandyJSON.git', :branch => 'dev_for_swift5.0'
   pod 'SnapKit'
   pod 'Alamofire'
   pod 'SwiftyJSON'
   pod 'ProgressHUD'
+  pod 'RxRealm'
+  pod 'EachNavigationBar'
+  #pod 'RealmSwift'
   # Pods for AlgorithmGame
 
 end

@@ -19,17 +19,21 @@ class BasicContentView: ESTabBarItemContentView {
         highlightIconColor = UIColor.init(red: 254/255.0, green: 73/255.0, blue: 42/255.0, alpha: 1.0)
     }
     
-    public required init?(coder aDecoder: NSCoder) {
+    required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
+  
+    
 }
+
 class BouncesContentView: BasicContentView {
     
     public var duration = 0.3
     
     override init(frame: CGRect) {
         super.init(frame: frame)
+        
     }
     
     public required init?(coder aDecoder: NSCoder) {

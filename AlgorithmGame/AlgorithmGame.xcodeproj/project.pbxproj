@@ -29,6 +29,36 @@
 		25EA89E7228D5EE8009FA018 /* ReturnCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EA89E5228D5EE8009FA018 /* ReturnCell.swift */; };
 		25EA89E8228D5EE8009FA018 /* ReturnCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25EA89E6228D5EE8009FA018 /* ReturnCell.xib */; };
 		88C74DBF1A413BA9FE1D0F50 /* Pods_AlgorithmGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDACFD3651603FCBFE043490 /* Pods_AlgorithmGame.framework */; };
+		F507B7EF22B50A1B00F47293 /* DataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F507B7EE22B50A1B00F47293 /* DataBase.swift */; };
+		F5277B7722A13C8D00C60F52 /* MineController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5277B7622A13C8D00C60F52 /* MineController.swift */; };
+		F5277B7D22A13CF300C60F52 /* MineBodyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5277B7922A13CF300C60F52 /* MineBodyCell.xib */; };
+		F5277B7E22A13CF300C60F52 /* MineBodyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5277B7A22A13CF300C60F52 /* MineBodyCell.swift */; };
+		F5277B7F22A13CF300C60F52 /* MineHeadCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5277B7B22A13CF300C60F52 /* MineHeadCell.xib */; };
+		F5277B8022A13CF300C60F52 /* MineHeadCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5277B7C22A13CF300C60F52 /* MineHeadCell.swift */; };
+		F5402E26228F959C00E32E7E /* AlHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5402E24228F959C00E32E7E /* AlHeaderCell.swift */; };
+		F5402E27228F959C00E32E7E /* AlHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5402E25228F959C00E32E7E /* AlHeaderCell.xib */; };
+		F5402E32228F9FC000E32E7E /* AlCentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5402E30228F9FC000E32E7E /* AlCentCell.swift */; };
+		F5402E33228F9FC000E32E7E /* AlCentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5402E31228F9FC000E32E7E /* AlCentCell.xib */; };
+		F5402E36228FA26800E32E7E /* AlCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5402E34228FA26800E32E7E /* AlCollectionCell.swift */; };
+		F5402E37228FA26800E32E7E /* AlCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5402E35228FA26800E32E7E /* AlCollectionCell.xib */; };
+		F5402E3A228FA77C00E32E7E /* BottomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5402E38228FA77C00E32E7E /* BottomCell.swift */; };
+		F5402E3B228FA77C00E32E7E /* BottomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5402E39228FA77C00E32E7E /* BottomCell.xib */; };
+		F5402E3F228FAA9F00E32E7E /* GameOneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5402E3D228FAA9F00E32E7E /* GameOneController.swift */; };
+		F5402E40228FAA9F00E32E7E /* GameOneController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5402E3E228FAA9F00E32E7E /* GameOneController.xib */; };
+		F5402E43228FB58000E32E7E /* MacthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5402E41228FB58000E32E7E /* MacthViewController.swift */; };
+		F5402E44228FB58000E32E7E /* MacthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5402E42228FB58000E32E7E /* MacthViewController.xib */; };
+		F5402E47228FB65300E32E7E /* ContestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5402E45228FB65300E32E7E /* ContestViewController.swift */; };
+		F5402E48228FB65300E32E7E /* ContestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5402E46228FB65300E32E7E /* ContestViewController.xib */; };
+		F5AD2DBF228D9262008E320D /* BasicAlgorithmController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AD2DBD228D9262008E320D /* BasicAlgorithmController.swift */; };
+		F5AD2DC0228D9262008E320D /* BasicAlgorithmController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5AD2DBE228D9262008E320D /* BasicAlgorithmController.xib */; };
+		F5BE9F63228D82B100E2841E /* TopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BE9F61228D82B100E2841E /* TopCell.swift */; };
+		F5BE9F64228D82B100E2841E /* TopCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5BE9F62228D82B100E2841E /* TopCell.xib */; };
+		F5BE9F67228D82CD00E2841E /* CenterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BE9F65228D82CD00E2841E /* CenterCell.swift */; };
+		F5BE9F68228D82CD00E2841E /* CenterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5BE9F66228D82CD00E2841E /* CenterCell.xib */; };
+		F5D2825522A14A73007DB580 /* DataBases.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D2825422A14A73007DB580 /* DataBases.swift */; };
+		F5D2825822A150C8007DB580 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D2825622A150C8007DB580 /* LoginViewController.swift */; };
+		F5D2825922A150C8007DB580 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5D2825722A150C8007DB580 /* LoginViewController.xib */; };
+		F5D2825B22A15110007DB580 /* SetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D2825A22A15110007DB580 /* SetViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +88,36 @@
 		5699E4EB016BB841AEE49027 /* Pods-AlgorithmGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgorithmGame.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlgorithmGame/Pods-AlgorithmGame.release.xcconfig"; sourceTree = "<group>"; };
 		5FAC100EB2142DB0D862EE95 /* Pods-AlgorithmGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgorithmGame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlgorithmGame/Pods-AlgorithmGame.debug.xcconfig"; sourceTree = "<group>"; };
 		EDACFD3651603FCBFE043490 /* Pods_AlgorithmGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlgorithmGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F507B7EE22B50A1B00F47293 /* DataBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBase.swift; sourceTree = "<group>"; };
+		F5277B7622A13C8D00C60F52 /* MineController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineController.swift; sourceTree = "<group>"; };
+		F5277B7922A13CF300C60F52 /* MineBodyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MineBodyCell.xib; sourceTree = "<group>"; };
+		F5277B7A22A13CF300C60F52 /* MineBodyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineBodyCell.swift; sourceTree = "<group>"; };
+		F5277B7B22A13CF300C60F52 /* MineHeadCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MineHeadCell.xib; sourceTree = "<group>"; };
+		F5277B7C22A13CF300C60F52 /* MineHeadCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineHeadCell.swift; sourceTree = "<group>"; };
+		F5402E24228F959C00E32E7E /* AlHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlHeaderCell.swift; sourceTree = "<group>"; };
+		F5402E25228F959C00E32E7E /* AlHeaderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlHeaderCell.xib; sourceTree = "<group>"; };
+		F5402E30228F9FC000E32E7E /* AlCentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlCentCell.swift; sourceTree = "<group>"; };
+		F5402E31228F9FC000E32E7E /* AlCentCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlCentCell.xib; sourceTree = "<group>"; };
+		F5402E34228FA26800E32E7E /* AlCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlCollectionCell.swift; sourceTree = "<group>"; };
+		F5402E35228FA26800E32E7E /* AlCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlCollectionCell.xib; sourceTree = "<group>"; };
+		F5402E38228FA77C00E32E7E /* BottomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomCell.swift; sourceTree = "<group>"; };
+		F5402E39228FA77C00E32E7E /* BottomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BottomCell.xib; sourceTree = "<group>"; };
+		F5402E3D228FAA9F00E32E7E /* GameOneController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOneController.swift; sourceTree = "<group>"; };
+		F5402E3E228FAA9F00E32E7E /* GameOneController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameOneController.xib; sourceTree = "<group>"; };
+		F5402E41228FB58000E32E7E /* MacthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacthViewController.swift; sourceTree = "<group>"; };
+		F5402E42228FB58000E32E7E /* MacthViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MacthViewController.xib; sourceTree = "<group>"; };
+		F5402E45228FB65300E32E7E /* ContestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContestViewController.swift; sourceTree = "<group>"; };
+		F5402E46228FB65300E32E7E /* ContestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContestViewController.xib; sourceTree = "<group>"; };
+		F5AD2DBD228D9262008E320D /* BasicAlgorithmController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAlgorithmController.swift; sourceTree = "<group>"; };
+		F5AD2DBE228D9262008E320D /* BasicAlgorithmController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BasicAlgorithmController.xib; sourceTree = "<group>"; };
+		F5BE9F61228D82B100E2841E /* TopCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopCell.swift; sourceTree = "<group>"; };
+		F5BE9F62228D82B100E2841E /* TopCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopCell.xib; sourceTree = "<group>"; };
+		F5BE9F65228D82CD00E2841E /* CenterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterCell.swift; sourceTree = "<group>"; };
+		F5BE9F66228D82CD00E2841E /* CenterCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CenterCell.xib; sourceTree = "<group>"; };
+		F5D2825422A14A73007DB580 /* DataBases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBases.swift; sourceTree = "<group>"; };
+		F5D2825622A150C8007DB580 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F5D2825722A150C8007DB580 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		F5D2825A22A15110007DB580 /* SetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,8 +152,14 @@
 		25032F10228D0D6900CC71D2 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				F5AD2DBC228D9231008E320D /* Algorithm */,
 				25032F11228D0D8300CC71D2 /* HomeViewController.swift */,
 				25032F12228D0D8300CC71D2 /* HomeViewController.xib */,
+				F5BE9F61228D82B100E2841E /* TopCell.swift */,
+				F5BE9F62228D82B100E2841E /* TopCell.xib */,
+				F5BE9F65228D82CD00E2841E /* CenterCell.swift */,
+				F5BE9F66228D82CD00E2841E /* CenterCell.xib */,
+				F507B7EE22B50A1B00F47293 /* DataBase.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -130,6 +196,7 @@
 				25E527EF228CFF5000EDA13E /* Assets.xcassets */,
 				25E527F1228CFF5000EDA13E /* LaunchScreen.storyboard */,
 				25E527F4228CFF5000EDA13E /* Info.plist */,
+				F5D2825422A14A73007DB580 /* DataBases.swift */,
 			);
 			path = AlgorithmGame;
 			sourceTree = "<group>";
@@ -137,14 +204,12 @@
 		25EA89CE228D4F8B009FA018 /* Mine */ = {
 			isa = PBXGroup;
 			children = (
-				25EA89D0228D4FBE009FA018 /* MineViewController.swift */,
-				25EA89D1228D4FBE009FA018 /* MineViewController.xib */,
-				25EA89D8228D58B0009FA018 /* HeaderCell.swift */,
-				25EA89D9228D58B0009FA018 /* HeaderCell.xib */,
-				25EA89DC228D5907009FA018 /* BodyCell.swift */,
-				25EA89DD228D5907009FA018 /* BodyCell.xib */,
-				25EA89E5228D5EE8009FA018 /* ReturnCell.swift */,
-				25EA89E6228D5EE8009FA018 /* ReturnCell.xib */,
+				F5277B7822A13CF300C60F52 /* Mine */,
+				F5277B7622A13C8D00C60F52 /* MineController.swift */,
+				F5277B7522A13C6200C60F52 /* MineGabege */,
+				F5D2825622A150C8007DB580 /* LoginViewController.swift */,
+				F5D2825722A150C8007DB580 /* LoginViewController.xib */,
+				F5D2825A22A15110007DB580 /* SetViewController.swift */,
 			);
 			path = Mine;
 			sourceTree = "<group>";
@@ -154,6 +219,10 @@
 			children = (
 				25EA89D4228D4FD1009FA018 /* GroundViewController.swift */,
 				25EA89D5228D4FD1009FA018 /* GroundViewController.xib */,
+				F5402E41228FB58000E32E7E /* MacthViewController.swift */,
+				F5402E42228FB58000E32E7E /* MacthViewController.xib */,
+				F5402E45228FB65300E32E7E /* ContestViewController.swift */,
+				F5402E46228FB65300E32E7E /* ContestViewController.xib */,
 			);
 			path = Ground;
 			sourceTree = "<group>";
@@ -174,6 +243,59 @@
 				5699E4EB016BB841AEE49027 /* Pods-AlgorithmGame.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		F5277B7522A13C6200C60F52 /* MineGabege */ = {
+			isa = PBXGroup;
+			children = (
+				25EA89D0228D4FBE009FA018 /* MineViewController.swift */,
+				25EA89D1228D4FBE009FA018 /* MineViewController.xib */,
+				25EA89D8228D58B0009FA018 /* HeaderCell.swift */,
+				25EA89D9228D58B0009FA018 /* HeaderCell.xib */,
+				25EA89DC228D5907009FA018 /* BodyCell.swift */,
+				25EA89DD228D5907009FA018 /* BodyCell.xib */,
+				25EA89E5228D5EE8009FA018 /* ReturnCell.swift */,
+				25EA89E6228D5EE8009FA018 /* ReturnCell.xib */,
+			);
+			path = MineGabege;
+			sourceTree = "<group>";
+		};
+		F5277B7822A13CF300C60F52 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				F5277B7922A13CF300C60F52 /* MineBodyCell.xib */,
+				F5277B7A22A13CF300C60F52 /* MineBodyCell.swift */,
+				F5277B7B22A13CF300C60F52 /* MineHeadCell.xib */,
+				F5277B7C22A13CF300C60F52 /* MineHeadCell.swift */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		F5402E3C228FAA7400E32E7E /* Problem */ = {
+			isa = PBXGroup;
+			children = (
+				F5402E3D228FAA9F00E32E7E /* GameOneController.swift */,
+				F5402E3E228FAA9F00E32E7E /* GameOneController.xib */,
+			);
+			path = Problem;
+			sourceTree = "<group>";
+		};
+		F5AD2DBC228D9231008E320D /* Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				F5AD2DBD228D9262008E320D /* BasicAlgorithmController.swift */,
+				F5AD2DBE228D9262008E320D /* BasicAlgorithmController.xib */,
+				F5402E24228F959C00E32E7E /* AlHeaderCell.swift */,
+				F5402E25228F959C00E32E7E /* AlHeaderCell.xib */,
+				F5402E30228F9FC000E32E7E /* AlCentCell.swift */,
+				F5402E31228F9FC000E32E7E /* AlCentCell.xib */,
+				F5402E34228FA26800E32E7E /* AlCollectionCell.swift */,
+				F5402E35228FA26800E32E7E /* AlCollectionCell.xib */,
+				F5402E38228FA77C00E32E7E /* BottomCell.swift */,
+				F5402E39228FA77C00E32E7E /* BottomCell.xib */,
+				F5402E3C228FAA7400E32E7E /* Problem */,
+			);
+			path = Algorithm;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,12 +360,25 @@
 			files = (
 				25EA89D3228D4FBE009FA018 /* MineViewController.xib in Resources */,
 				25E527F3228CFF5000EDA13E /* LaunchScreen.storyboard in Resources */,
+				F5D2825922A150C8007DB580 /* LoginViewController.xib in Resources */,
+				F5BE9F68228D82CD00E2841E /* CenterCell.xib in Resources */,
 				25EA89DB228D58B0009FA018 /* HeaderCell.xib in Resources */,
+				F5402E3B228FA77C00E32E7E /* BottomCell.xib in Resources */,
+				F5402E40228FAA9F00E32E7E /* GameOneController.xib in Resources */,
+				F5402E37228FA26800E32E7E /* AlCollectionCell.xib in Resources */,
+				F5402E33228F9FC000E32E7E /* AlCentCell.xib in Resources */,
 				25EA89DF228D5907009FA018 /* BodyCell.xib in Resources */,
 				25E527F0228CFF5000EDA13E /* Assets.xcassets in Resources */,
+				F5AD2DC0228D9262008E320D /* BasicAlgorithmController.xib in Resources */,
 				25E527EE228CFF4F00EDA13E /* Main.storyboard in Resources */,
+				F5277B7D22A13CF300C60F52 /* MineBodyCell.xib in Resources */,
 				25032F14228D0D8300CC71D2 /* HomeViewController.xib in Resources */,
+				F5402E27228F959C00E32E7E /* AlHeaderCell.xib in Resources */,
+				F5BE9F64228D82B100E2841E /* TopCell.xib in Resources */,
+				F5402E48228FB65300E32E7E /* ContestViewController.xib in Resources */,
+				F5277B7F22A13CF300C60F52 /* MineHeadCell.xib in Resources */,
 				25EA89E8228D5EE8009FA018 /* ReturnCell.xib in Resources */,
+				F5402E44228FB58000E32E7E /* MacthViewController.xib in Resources */,
 				25EA89D7228D4FD1009FA018 /* GroundViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,13 +410,18 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-AlgorithmGame/Pods-AlgorithmGame-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-AlgorithmGame/Pods-AlgorithmGame-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/CollectionKit/CollectionKit.framework",
 				"${BUILT_PRODUCTS_DIR}/ESTabBarController-swift/ESTabBarController_swift.framework",
+				"${BUILT_PRODUCTS_DIR}/EachNavigationBar/EachNavigationBar.framework",
 				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/ProgressHUD/ProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRealm/RxRealm.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
@@ -290,15 +430,20 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CollectionKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ESTabBarController_swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EachNavigationBar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRealm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlgorithmGame/Pods-AlgorithmGame-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AlgorithmGame/Pods-AlgorithmGame-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -308,16 +453,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5D2825822A150C8007DB580 /* LoginViewController.swift in Sources */,
+				F507B7EF22B50A1B00F47293 /* DataBase.swift in Sources */,
+				F5D2825522A14A73007DB580 /* DataBases.swift in Sources */,
 				25EA89DE228D5907009FA018 /* BodyCell.swift in Sources */,
 				25032F13228D0D8300CC71D2 /* HomeViewController.swift in Sources */,
+				F5402E3F228FAA9F00E32E7E /* GameOneController.swift in Sources */,
+				F5402E36228FA26800E32E7E /* AlCollectionCell.swift in Sources */,
+				F5277B7E22A13CF300C60F52 /* MineBodyCell.swift in Sources */,
+				F5277B8022A13CF300C60F52 /* MineHeadCell.swift in Sources */,
 				25032F0D228D09E200CC71D2 /* MainNavigationController.swift in Sources */,
+				F5402E26228F959C00E32E7E /* AlHeaderCell.swift in Sources */,
 				25EA89D6228D4FD1009FA018 /* GroundViewController.swift in Sources */,
 				25EA89E4228D5C87009FA018 /* Extension.swift in Sources */,
+				F5BE9F63228D82B100E2841E /* TopCell.swift in Sources */,
 				25032F0F228D0A3100CC71D2 /* BasicContentView.swift in Sources */,
 				25EA89DA228D58B0009FA018 /* HeaderCell.swift in Sources */,
 				25E527EB228CFF4F00EDA13E /* ViewController.swift in Sources */,
 				25E527E9228CFF4F00EDA13E /* AppDelegate.swift in Sources */,
+				F5402E3A228FA77C00E32E7E /* BottomCell.swift in Sources */,
+				F5BE9F67228D82CD00E2841E /* CenterCell.swift in Sources */,
+				F5402E43228FB58000E32E7E /* MacthViewController.swift in Sources */,
 				25EA89D2228D4FBE009FA018 /* MineViewController.swift in Sources */,
+				F5402E32228F9FC000E32E7E /* AlCentCell.swift in Sources */,
+				F5AD2DBF228D9262008E320D /* BasicAlgorithmController.swift in Sources */,
+				F5402E47228FB65300E32E7E /* ContestViewController.swift in Sources */,
+				F5277B7722A13C8D00C60F52 /* MineController.swift in Sources */,
+				F5D2825B22A15110007DB580 /* SetViewController.swift in Sources */,
 				25EA89E1228D5A05009FA018 /* Const.swift in Sources */,
 				25EA89E7228D5EE8009FA018 /* ReturnCell.swift in Sources */,
 			);
@@ -467,13 +629,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = D63Q2FUWT6;
+				DEVELOPMENT_TEAM = A4TWU4S2JA;
 				INFOPLIST_FILE = AlgorithmGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.zc.one.AlgorithmGame;
+				PRODUCT_BUNDLE_IDENTIFIER = net.zc.one1.AlgorithmGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -486,13 +648,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = D63Q2FUWT6;
+				DEVELOPMENT_TEAM = A4TWU4S2JA;
 				INFOPLIST_FILE = AlgorithmGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.zc.one.AlgorithmGame;
+				PRODUCT_BUNDLE_IDENTIFIER = net.zc.one1.AlgorithmGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";

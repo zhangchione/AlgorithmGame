@@ -21,20 +21,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let tabBarController = ESTabBarController()
         let v1 = HomeViewController()
         let v2 = GroundViewController()
-        let v3 = MineViewController()
+        let v3 = MineController()
         v1.tabBarItem = ESTabBarItem.init(BouncesContentView(), title: "Home", image: UIImage(named: "home"), selectedImage: UIImage(named: "home_1"))
         v2.tabBarItem = ESTabBarItem.init(BouncesContentView(), title: "Find", image: UIImage(named: "find"), selectedImage: UIImage(named: "find_1"))
         v3.tabBarItem = ESTabBarItem.init(BouncesContentView(), title: "Me", image: UIImage(named: "me"), selectedImage: UIImage(named: "me_1"))
+        let nav1 = MainNavigationController.init(rootViewController: v1)
+        let nav2 = MainNavigationController.init(rootViewController: v2)
+        let nav3 = MainNavigationController.init(rootViewController: v3)
+        tabBarController.viewControllers = [nav1, nav2, nav3]
         
-        tabBarController.viewControllers = [v1, v2, v3]
-        
-        let navigationController = MainNavigationController.init(rootViewController: tabBarController)
+        //let navigationController = MainNavigationController.init(rootViewController: tabBarController)
         //tabBarController.title = "Example"
         v1.title = "知识广场"
         v2.title = "竞赛专区"
         v3.title = "个人信息"
         window?.makeKeyAndVisible()
-        window?.rootViewController = navigationController
+        window?.rootViewController = tabBarController
         return true
     }
 

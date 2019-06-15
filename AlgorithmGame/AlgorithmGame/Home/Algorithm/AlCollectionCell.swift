@@ -10,6 +10,9 @@ import UIKit
 
 class AlCollectionCell: UICollectionViewCell {
 
+    @IBOutlet weak var Tico: UIImageView!
+    @IBOutlet weak var Tnumber: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

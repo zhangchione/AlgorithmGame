@@ -11,3 +11,4 @@ import UIKit
 
 let AGWidth = UIScreen.main.bounds.width
 let AGHeight = UIScreen.main.bounds.height
+let FooterViewColor = UIColor.init(red: 240/255.0, green: 241/255.0, blue: 244/255.0, alpha: 1)

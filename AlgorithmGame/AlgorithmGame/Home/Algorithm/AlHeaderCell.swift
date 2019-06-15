@@ -10,6 +10,9 @@ import UIKit
 
 class AlHeaderCell: UITableViewCell {
 
+    @IBOutlet weak var headerView: UIView!
+    @IBOutlet weak var grade: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

@@ -10,6 +10,8 @@ import UIKit
 
 class BottomCell: UITableViewCell {
 
+    
+    @IBOutlet weak var startbtn: UIButton!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

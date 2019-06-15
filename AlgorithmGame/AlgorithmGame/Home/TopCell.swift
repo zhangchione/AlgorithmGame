@@ -10,6 +10,12 @@ import UIKit
 
 class TopCell: UITableViewCell {
 
+    @IBOutlet weak var userImg: UIImageView!
+    @IBOutlet weak var userGrade: UILabel!
+    @IBOutlet weak var userScore: UILabel!
+    @IBOutlet weak var userView: UIView!
+    @IBOutlet weak var tips: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
