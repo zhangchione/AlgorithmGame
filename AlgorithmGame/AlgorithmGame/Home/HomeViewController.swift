@@ -8,13 +8,14 @@
 
 import UIKit
 import RealmSwift
+import EachNavigationBar
 
 class HomeViewController: UIViewController {
     
     var tableview:UITableView!
     
     let realm = try! Realm()
-    var itemArray: Results<Item>?
+    var itemArray: Results<basicsT>?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,34 +25,33 @@ class HomeViewController: UIViewController {
     }
     
     func configData(){
-
-        let dataItems = Item()
-        dataItems.question = "衡量一个算法的效率指标是"
-        dataItems.anserA = "空间复杂度"
-        dataItems.anserB = "时间复杂度"
-        dataItems.anserC = "运行时间"
-        dataItems.anserD = "编译快慢"
+        let dataItems = basicsT()
+        dataItems.question = "在棋盘覆盖问题中,对于（2^k）*(2^k)的特殊棋盘，所需y的L型骨牌的个数是"
+        dataItems.anserA = "（4^k-1）*3"
+        dataItems.anserB = "2^k/3"
+        dataItems.anserC = "4^k"
+        dataItems.anserD = "2^k"
         dataItems.anserYN = false
-        dataItems.score = "-1"
+        dataItems.score = "0"
         dataItems.tips = "快想想吧~"
-        for _ in 1...5 {
+        dataItems.id = "0"
+        dataItems.trueAnser = "A"
             self.saveData(item: dataItems)
-        }
-        itemArray = realm.objects(Item.self)
+        itemArray = realm.objects(basicsT.self)
         for ii in itemArray! {
             print(ii)
         }
         
         print(itemArray?.count)
     }
-    func deleteData(item:Item)
+    func deleteData(item:basicsT)
     {
         try! realm.write {
             
             realm.delete(item) // 删除单个数据
         }
     }
-    func saveData(item:Item)
+    func saveData(item:basicsT)
     {
         do {
             try realm.write {
@@ -62,6 +62,10 @@ class HomeViewController: UIViewController {
         }
     }
     func configUI(){
+                //setUIVC(self, title: "答题广场")
+        self.navigation.bar.isShadowHidden = true
+        //self.navigation.bar.alpha = 0
+       // self.navigationItem.title = ""
         tableview = UITableView(frame: CGRect(x: 0, y: 0, width: AGWidth, height: AGHeight))
         tableview.delegate = self
         tableview.dataSource = self
@@ -71,11 +75,11 @@ class HomeViewController: UIViewController {
         view.addSubview(tableview)
     }
     override func viewWillAppear(_ animated: Bool) {
-        self.navigationController?.isNavigationBarHidden = true
+       // self.navigationController?.isNavigationBarHidden = true
         //self.navigationController?.navigationBar.isTranslucent = true
     }
     override func viewWillDisappear(_ animated: Bool) {
-        self.navigationController?.isNavigationBarHidden = false
+        //self.navigationController?.isNavigationBarHidden = false
     }
 }
 

@@ -33,10 +33,10 @@
                             <rect key="frame" x="20" y="320" width="374" height="180"/>
                             <subviews>
                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KAR-pQ-KIP">
-                                    <rect key="frame" x="140" y="74" width="98" height="41"/>
+                                    <rect key="frame" x="116" y="74" width="146" height="41"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                    <state key="normal" title="出类拔萃">
+                                    <state key="normal" title="贪心算法学习">
                                         <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </state>
                                 </button>
@@ -50,10 +50,10 @@
                             <rect key="frame" x="20" y="100" width="374" height="180"/>
                             <subviews>
                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G3W-NM-hHK">
-                                    <rect key="frame" x="140" y="74" width="98" height="41"/>
+                                    <rect key="frame" x="116" y="74" width="146" height="41"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                    <state key="normal" title="初出茅庐">
+                                    <state key="normal" title="动态规划学习">
                                         <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </state>
                                 </button>
@@ -67,10 +67,10 @@
                             <rect key="frame" x="20" y="540" width="374" height="180"/>
                             <subviews>
                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DCQ-1v-GCX">
-                                    <rect key="frame" x="140" y="74" width="98" height="41"/>
+                                    <rect key="frame" x="116" y="74" width="146" height="41"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                    <state key="normal" title="登峰造极">
+                                    <state key="normal" title="回溯算法学习">
                                         <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </state>
                                 </button>
@@ -80,7 +80,7 @@
                                 <constraint firstAttribute="height" constant="180" id="RQG-SU-pNO"/>
                             </constraints>
                         </view>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="竞赛专区" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Vf-3a-VOg">
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="基本算法" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Vf-3a-VOg">
                             <rect key="frame" x="143" y="35" width="130" height="40"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="40" id="pTN-Ur-TX4"/>
@@ -92,7 +92,7 @@
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rxB-Ya-0Vu">
                             <rect key="frame" x="151" y="739" width="114" height="46"/>
                             <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                            <state key="normal" title="竞赛规则"/>
+                            <state key="normal" title="学习方法"/>
                         </button>
                     </subviews>
                     <constraints>

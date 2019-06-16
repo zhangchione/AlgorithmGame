@@ -12,11 +12,20 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GameOneController" customModule="AlgorithmGame" customModuleProvider="target">
             <connections>
-                <outlet property="anserA" destination="SEp-SQ-vbZ" id="eqK-oA-5lc"/>
-                <outlet property="anserB" destination="Zif-ld-rFK" id="7ZX-en-3kq"/>
-                <outlet property="anserC" destination="YXn-vG-xF6" id="b3i-Oj-gTc"/>
-                <outlet property="anserD" destination="VuA-f6-3Mw" id="FZn-EJ-AFN"/>
+                <outlet property="ViewA" destination="kij-z8-VR0" id="vEq-6z-3q0"/>
+                <outlet property="ViewB" destination="Ypc-9p-IJa" id="4D0-Ve-cHg"/>
+                <outlet property="ViewBack" destination="Osp-Op-JEI" id="wse-ap-7M9"/>
+                <outlet property="ViewC" destination="ate-3E-v74" id="mfb-9X-GK5"/>
+                <outlet property="ViewD" destination="grM-2W-sTX" id="GeM-Zg-O9T"/>
+                <outlet property="ViewNext" destination="qDx-co-n3j" id="Kc8-SD-kI6"/>
+                <outlet property="ViewTips" destination="e0R-mP-b2Y" id="fsB-r8-3hx"/>
+                <outlet property="anserA" destination="SEp-SQ-vbZ" id="ZDC-OT-5O2"/>
+                <outlet property="anserB" destination="Zif-ld-rFK" id="4ga-H1-Guv"/>
+                <outlet property="anserC" destination="YXn-vG-xF6" id="K6g-2V-Wbj"/>
+                <outlet property="anserD" destination="VuA-f6-3Mw" id="4pF-Vu-iTN"/>
+                <outlet property="number" destination="Yui-HO-2ux" id="OML-Iw-fej"/>
                 <outlet property="question" destination="GEf-A6-JnB" id="fQa-yu-RdD"/>
+                <outlet property="score" destination="v0P-rT-dTf" id="nME-ls-DBX"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -27,13 +36,6 @@
             <subviews>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="得分" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bAS-cQ-bV2">
                     <rect key="frame" x="59" y="82" width="50" height="50"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                    <nil key="textColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10分" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v0P-rT-dTf">
-                    <rect key="frame" x="258" y="97" width="90" height="21"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                     <nil key="textColor"/>
@@ -186,10 +188,24 @@
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
                 </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="第1题" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yui-HO-2ux">
+                    <rect key="frame" x="319" y="97" width="59" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10分" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v0P-rT-dTf">
+                    <rect key="frame" x="117" y="97" width="90" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <color key="backgroundColor" red="0.92026969178082196" green="0.92781464041095896" blue="0.89932041952054798" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
-            <point key="canvasLocation" x="131.8840579710145" y="152.67857142857142"/>
+            <point key="canvasLocation" x="-301" y="78"/>
         </view>
     </objects>
 </document>

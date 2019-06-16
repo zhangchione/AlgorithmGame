@@ -30,7 +30,7 @@ class GroundViewController: UIViewController {
         twoView.layer.cornerRadius = 10
         threeView.layer.cornerRadius = 10
         oneBtn.addTarget(self, action: #selector(one), for: .touchUpInside)
-        
+                setUIVC(self, title: "学习专区")
     }
     @objc func one(){
         let vc = MacthViewController()
@@ -38,12 +38,12 @@ class GroundViewController: UIViewController {
     }
     override func viewWillAppear(_ animated: Bool) {
         //隐藏导航栏
-        self.navigationController?.isNavigationBarHidden = true
+        //self.navigationController?.isNavigationBarHidden = true
     }
     
     override func viewWillDisappear(_ animated: Bool) {
         //隐藏导航栏
-        self.navigationController?.isNavigationBarHidden = false
+        //self.navigationController?.isNavigationBarHidden = false
     }
 
     /*

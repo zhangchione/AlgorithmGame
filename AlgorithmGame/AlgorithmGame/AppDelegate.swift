@@ -8,6 +8,8 @@
 
 import UIKit
 import ESTabBarController_swift
+import EachNavigationBar
+import RealmSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,7 +19,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        
+        let realm = try! Realm()
+        print(realm.configuration.fileURL!)
+        // 从 Realm 数据库中删除所有对象
+        try! realm.write {
+            realm.deleteAll()
+        }
         let tabBarController = ESTabBarController()
         let v1 = HomeViewController()
         let v2 = GroundViewController()
@@ -28,13 +35,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let nav1 = MainNavigationController.init(rootViewController: v1)
         let nav2 = MainNavigationController.init(rootViewController: v2)
         let nav3 = MainNavigationController.init(rootViewController: v3)
+        nav1.navigation.configuration.isEnabled = true
         tabBarController.viewControllers = [nav1, nav2, nav3]
         
         //let navigationController = MainNavigationController.init(rootViewController: tabBarController)
         //tabBarController.title = "Example"
-        v1.title = "知识广场"
-        v2.title = "竞赛专区"
-        v3.title = "个人信息"
+        v1.title = "答题广场"
+        v2.title = "学习专区"
+        v3.title = "关于"
         window?.makeKeyAndVisible()
         window?.rootViewController = tabBarController
         return true

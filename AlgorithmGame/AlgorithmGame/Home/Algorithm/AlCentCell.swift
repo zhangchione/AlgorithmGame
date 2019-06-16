@@ -11,23 +11,10 @@ import RealmSwift
 
 class AlCentCell: UITableViewCell, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     
-        let dataArray = ["1","2","3","4","5","6","7","8","9","10","1","2","3","4","5","6","7","8","9","10"]
+        let dataArray = ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31","32","33","34","35","36","37","38","39","40"]
     let realm = try! Realm()
-    var itemArray: Results<Item>?
-    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-                itemArray = realm.objects(Item.self)
-        return itemArray!.count
-    }
-    
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "AlCollectionCell", for: indexPath) as! AlCollectionCell
-        //cell.dataString = self.dataArray[indexPath.row]
-        cell.Tnumber.text = dataArray[indexPath.row]
-        return cell
-    }
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: 80.FitHeight, height: 80.FitHeight)
-    }
+    var itemArray: Results<basicsT>?
+
     
     
     @IBOutlet weak var collection: UICollectionView!
@@ -37,13 +24,32 @@ class AlCentCell: UITableViewCell, UICollectionViewDelegate, UICollectionViewDat
         self.collection.delegate = self
         self.collection.dataSource = self
         self.collection.register(UINib(nibName: "AlCollectionCell", bundle: nil), forCellWithReuseIdentifier: "AlCollectionCell")
-        
+            itemArray = realm.objects(basicsT.self)
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state
+    }
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return itemArray!.count
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "AlCollectionCell", for: indexPath) as! AlCollectionCell
+        //cell.dataString = self.dataArray[indexPath.row]
+        cell.Tnumber.text = dataArray[indexPath.row]
+        if itemArray![indexPath.row].anserYN {
+            cell.Tico.image = UIImage(named: "img_user_boy")
+        }
+        else {
+            cell.Tico.image = UIImage(named: "img_user_girl")
+        }
+        return cell
+    }
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        return CGSize(width: 80.FitHeight, height: 80.FitHeight)
     }
     
 }
