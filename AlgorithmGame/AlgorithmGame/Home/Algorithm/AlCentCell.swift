@@ -41,10 +41,10 @@ class AlCentCell: UITableViewCell, UICollectionViewDelegate, UICollectionViewDat
         //cell.dataString = self.dataArray[indexPath.row]
         cell.Tnumber.text = dataArray[indexPath.row]
         if itemArray![indexPath.row].anserYN {
-            cell.Tico.image = UIImage(named: "img_user_boy")
+            cell.Tico.image = UIImage(named: "img_user_boy1")
         }
         else {
-            cell.Tico.image = UIImage(named: "img_user_girl")
+            cell.Tico.image = UIImage(named: "img_user_girl1")
         }
         return cell
     }

@@ -40,6 +40,12 @@ extension UIViewController{
         viewController.view.backgroundColor = .white
         viewController.navigationController!.setLargeTitle(viewController.navigationController!)
     }
+    
+    public func cancelUIVC(_ viewController: UIViewController, title: String){
+        viewController.navigationItem.title = title
+        viewController.view.backgroundColor = .white
+        viewController.navigationController!.cancelLargeTitle(viewController.navigationController!)
+    }
 }
 
 
@@ -50,6 +56,16 @@ extension UINavigationController{
         {
             navigationController.navigationItem.largeTitleDisplayMode = UINavigationItem.LargeTitleDisplayMode.automatic
             navigationController.navigationBar.prefersLargeTitles = true
+        }
+        /// 黑线消失
+        navigationController.navigationBar.shadowImage = UIImage()
+    }
+    public func cancelLargeTitle(_ navigationController: UINavigationController){
+        /// 设置大标题
+        if #available(iOS 11.0, *)
+        {
+            navigationController.navigationItem.largeTitleDisplayMode = UINavigationItem.LargeTitleDisplayMode.automatic
+            navigationController.navigationBar.prefersLargeTitles = false
         }
         /// 黑线消失
         navigationController.navigationBar.shadowImage = UIImage()

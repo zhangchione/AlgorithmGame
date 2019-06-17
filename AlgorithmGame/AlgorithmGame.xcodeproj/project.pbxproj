@@ -59,6 +59,10 @@
 		F5D2825822A150C8007DB580 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D2825622A150C8007DB580 /* LoginViewController.swift */; };
 		F5D2825922A150C8007DB580 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5D2825722A150C8007DB580 /* LoginViewController.xib */; };
 		F5D2825B22A15110007DB580 /* SetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D2825A22A15110007DB580 /* SetViewController.swift */; };
+		F5EBADC222B72F9C0074DE5E /* DPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EBADC122B72F9C0074DE5E /* DPViewController.swift */; };
+		F5EBADC422B7309B0074DE5E /* DBFSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EBADC322B7309B0074DE5E /* DBFSViewController.swift */; };
+		F5EBADC622B7314D0074DE5E /* TXViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EBADC522B7314D0074DE5E /* TXViewController.swift */; };
+		F5EBADC822B751370074DE5E /* AViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EBADC722B751370074DE5E /* AViewController.swift */; };
 		F5F4155522B5D60F006F13D6 /* NewProblemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F4155322B5D60F006F13D6 /* NewProblemViewController.swift */; };
 		F5F4155622B5D60F006F13D6 /* NewProblemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5F4155422B5D60F006F13D6 /* NewProblemViewController.xib */; };
 /* End PBXBuildFile section */
@@ -120,6 +124,10 @@
 		F5D2825622A150C8007DB580 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		F5D2825722A150C8007DB580 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		F5D2825A22A15110007DB580 /* SetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetViewController.swift; sourceTree = "<group>"; };
+		F5EBADC122B72F9C0074DE5E /* DPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPViewController.swift; sourceTree = "<group>"; };
+		F5EBADC322B7309B0074DE5E /* DBFSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBFSViewController.swift; sourceTree = "<group>"; };
+		F5EBADC522B7314D0074DE5E /* TXViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TXViewController.swift; sourceTree = "<group>"; };
+		F5EBADC722B751370074DE5E /* AViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AViewController.swift; sourceTree = "<group>"; };
 		F5F4155322B5D60F006F13D6 /* NewProblemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewProblemViewController.swift; sourceTree = "<group>"; };
 		F5F4155422B5D60F006F13D6 /* NewProblemViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewProblemViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -223,10 +231,11 @@
 			children = (
 				25EA89D4228D4FD1009FA018 /* GroundViewController.swift */,
 				25EA89D5228D4FD1009FA018 /* GroundViewController.xib */,
-				F5402E41228FB58000E32E7E /* MacthViewController.swift */,
-				F5402E42228FB58000E32E7E /* MacthViewController.xib */,
-				F5402E45228FB65300E32E7E /* ContestViewController.swift */,
-				F5402E46228FB65300E32E7E /* ContestViewController.xib */,
+				F5EBADC022B72F720074DE5E /* gabige */,
+				F5EBADC122B72F9C0074DE5E /* DPViewController.swift */,
+				F5EBADC322B7309B0074DE5E /* DBFSViewController.swift */,
+				F5EBADC522B7314D0074DE5E /* TXViewController.swift */,
+				F5EBADC722B751370074DE5E /* AViewController.swift */,
 			);
 			path = Ground;
 			sourceTree = "<group>";
@@ -301,6 +310,17 @@
 				F5402E3C228FAA7400E32E7E /* Problem */,
 			);
 			path = Algorithm;
+			sourceTree = "<group>";
+		};
+		F5EBADC022B72F720074DE5E /* gabige */ = {
+			isa = PBXGroup;
+			children = (
+				F5402E41228FB58000E32E7E /* MacthViewController.swift */,
+				F5402E42228FB58000E32E7E /* MacthViewController.xib */,
+				F5402E45228FB65300E32E7E /* ContestViewController.swift */,
+				F5402E46228FB65300E32E7E /* ContestViewController.xib */,
+			);
+			path = gabige;
 			sourceTree = "<group>";
 		};
 		F5F4155222B5D5DF006F13D6 /* newProblem */ = {
@@ -485,16 +505,20 @@
 				25032F0F228D0A3100CC71D2 /* BasicContentView.swift in Sources */,
 				25EA89DA228D58B0009FA018 /* HeaderCell.swift in Sources */,
 				25E527EB228CFF4F00EDA13E /* ViewController.swift in Sources */,
+				F5EBADC422B7309B0074DE5E /* DBFSViewController.swift in Sources */,
+				F5EBADC822B751370074DE5E /* AViewController.swift in Sources */,
 				25E527E9228CFF4F00EDA13E /* AppDelegate.swift in Sources */,
 				F5402E3A228FA77C00E32E7E /* BottomCell.swift in Sources */,
 				F5BE9F67228D82CD00E2841E /* CenterCell.swift in Sources */,
 				F5402E43228FB58000E32E7E /* MacthViewController.swift in Sources */,
 				25EA89D2228D4FBE009FA018 /* MineViewController.swift in Sources */,
+				F5EBADC622B7314D0074DE5E /* TXViewController.swift in Sources */,
 				F5402E32228F9FC000E32E7E /* AlCentCell.swift in Sources */,
 				F5AD2DBF228D9262008E320D /* BasicAlgorithmController.swift in Sources */,
 				F5402E47228FB65300E32E7E /* ContestViewController.swift in Sources */,
 				F5277B7722A13C8D00C60F52 /* MineController.swift in Sources */,
 				F5D2825B22A15110007DB580 /* SetViewController.swift in Sources */,
+				F5EBADC222B72F9C0074DE5E /* DPViewController.swift in Sources */,
 				F5F4155522B5D60F006F13D6 /* NewProblemViewController.swift in Sources */,
 				25EA89E1228D5A05009FA018 /* Const.swift in Sources */,
 				25EA89E7228D5EE8009FA018 /* ReturnCell.swift in Sources */,

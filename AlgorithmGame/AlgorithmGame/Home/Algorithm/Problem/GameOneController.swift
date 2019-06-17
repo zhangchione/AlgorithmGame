@@ -59,7 +59,7 @@ class GameOneController: UIViewController {
         flag += 1
         if flag >= max {
             let alert = UIAlertController(title: "提示", message:"最后一题了", preferredStyle: .alert)
-            let yes = UIAlertAction(title: "继续监测", style: .default, handler: {(alerts:UIAlertAction) -> Void in
+            let yes = UIAlertAction(title: "继续检查", style: .default, handler: {(alerts:UIAlertAction) -> Void in
                 
             })
             let back = UIAlertAction(title: "退出答题", style: .default, handler: {(alerts:UIAlertAction) -> Void in

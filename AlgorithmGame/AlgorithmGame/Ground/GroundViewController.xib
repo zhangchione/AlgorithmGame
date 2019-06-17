@@ -92,7 +92,10 @@
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rxB-Ya-0Vu">
                             <rect key="frame" x="151" y="739" width="114" height="46"/>
                             <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                            <state key="normal" title="学习方法"/>
+                            <state key="normal" title="算法知识"/>
+                            <connections>
+                                <action selector="B:" destination="-1" eventType="touchUpInside" id="4b5-3T-kKw"/>
+                            </connections>
                         </button>
                     </subviews>
                     <constraints>

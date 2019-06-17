@@ -17,6 +17,10 @@ class GroundViewController: UIViewController {
     @IBOutlet weak var twoBtn: UIButton!
     @IBOutlet weak var threeBtn: UIButton!
     
+    @IBAction func B(_ sender: UIButton) {
+        let vc = AViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -30,10 +34,19 @@ class GroundViewController: UIViewController {
         twoView.layer.cornerRadius = 10
         threeView.layer.cornerRadius = 10
         oneBtn.addTarget(self, action: #selector(one), for: .touchUpInside)
-                setUIVC(self, title: "学习专区")
+        twoBtn.addTarget(self, action: #selector(two), for: .touchUpInside)
+        threeBtn.addTarget(self, action: #selector(three), for: .touchUpInside)
     }
     @objc func one(){
-        let vc = MacthViewController()
+        let vc = DPViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    @objc func two(){
+        let vc = DBFSViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    @objc func three(){
+        let vc = TXViewController()
         self.navigationController?.pushViewController(vc, animated: true)
     }
     override func viewWillAppear(_ animated: Bool) {
